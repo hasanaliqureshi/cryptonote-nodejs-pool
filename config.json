@@ -106,17 +106,17 @@
 
     "payments": {
         "enabled": true,
-        "interval": 1800,
+        "interval": 300,
         "maxAddresses": 50,
         "mixin": 5,
         "priority": 0,
-        "transferFee": 10,
+        "transferFee": 10000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
         "minPayment": 10000,
         "maxPayment": null,
         "maxTransactionAmount": 0,
-        "denomination": 100
+        "denomination": 10000
     },
 
     "blockUnlocker": {
