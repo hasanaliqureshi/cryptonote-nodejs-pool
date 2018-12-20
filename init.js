@@ -20,6 +20,7 @@ require('./lib/logger.js');
 var redis = require('redis');
 
 var redisDB = (config.redis.db && config.redis.db > 0) ? config.redis.db : 0;
+console.log(redisDB);
 global.redisClient = redis.createClient(config.redis.port, config.redis.host, { db: redisDB, auth_pass: config.redis.auth });
 
 // Load pool modules
