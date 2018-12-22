@@ -1,11 +1,10 @@
 {
     "poolHost": "18.217.62.173",
-
-    "coin": "gitcoin",
-    "symbol": "GIT",
-    "coinUnits": 100000000,
-    "coinDecimalPlaces": 8,
-    "coinDifficultyTarget": 120,
+    "coin": "streemie",
+    "symbol": "STRM",
+    "coinUnits": 1000,
+    "coinDecimalPlaces": 3,
+    "coinDifficultyTarget": 60,
 
     "daemonType": "default",
     "cnAlgorithm": "cryptonight",
@@ -27,8 +26,8 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "TitZhhu95E484j7A8SSof2gNzoCzXScaYXs2jhxQEKHghAj6EejxAZGE22T8wrBJ3eXigt4mmcDvMbkZ7mNEQqku1XjXc7UvgP",
-        "intAddressPrefix": "0x619f",
+        "poolAddress": "Strmq3gLqBXMERhHtGyWPmUFaCNnkVDg7AgovzzLi3mK4HiSXG71As8Hjv3dxw1DusSUtjXxjUT4VW8aELLzzXJJNXX7PKCN1bk",
+        "intAddressPrefix": "2320282",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "./cert.pem",
@@ -43,17 +42,20 @@
             {
                 "port": 4444,
                 "difficulty": 15000,
-                "desc": "Mid range hardware"
+                "desc": "Mid range hardware",
+                "hidden" : true
             },
             {
                 "port": 5555,
                 "difficulty": 25000,
-                "desc": "High end hardware"
+                "desc": "High end hardware",
+                "hidden" : true
             },
             {
                 "port": 7777,
                 "difficulty": 500000,
-                "desc": "Cloud-mining / NiceHash"
+                "desc": "Cloud-mining / NiceHash",
+                "hidden" : true
             },
             {
                 "port": 8888,
@@ -65,6 +67,7 @@
                 "port": 9999,
                 "difficulty": 20000,
                 "desc": "SSL connection",
+                "hidden" : true
                 "ssl": true
             }
         ],
@@ -110,12 +113,12 @@
         "maxAddresses": 50,
         "mixin": 1,
         "priority": 0,
-        "transferFee": 10000,
+        "transferFee": 100,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
         "minPayment": 10000,
-        "maxPayment": 10000000,
-        "maxTransactionAmount": 10000000,
+        "maxPayment": 10000,
+        "maxTransactionAmount": 1000000000,
         "denomination": 10000
     },
 
