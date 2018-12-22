@@ -117,9 +117,9 @@
         "dynamicTransferFee": true,
         "minerPayFee" : true,
         "minPayment": 10000,
-        "maxPayment": 10000,
+        "maxPayment": 1000000000,
         "maxTransactionAmount": 1000000000,
-        "denomination": 10000
+        "denomination": 0
     },
 
     "blockUnlocker": {
