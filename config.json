@@ -111,12 +111,12 @@
         "enabled": true,
         "interval": 300,
         "maxAddresses": 50,
-        "mixin": 0,
+        "mixin": 1,
         "priority": 0,
         "transferFee": 100000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 100000,
+        "minPayment": 1000,
         "maxPayment": 1000000000,
         "maxTransactionAmount": 1000000000,
         "denomination": 0
@@ -126,8 +126,8 @@
         "enabled": true,
         "interval": 30,
         "depth": 10,
-        "poolFee": 0.8,
-        "devDonation": 0.2,
+        "poolFee": 0.0,
+        "devDonation": 0.0,
         "networkFee": 0.0
     },
 
