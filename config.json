@@ -1,5 +1,5 @@
 {
-    "poolHost": "18.217.62.173",
+    "poolHost": "18.222.106.239",
     "coin": "streemie",
     "symbol": "STRM",
     "coinUnits": 1000,
@@ -26,8 +26,8 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Strmq3gLqBXMERhHtGyWPmUFaCNnkVDg7AgovzzLi3mK4HiSXG71As8Hjv3dxw1DusSUtjXxjUT4VW8aELLzzXJJNXX7PKCN1bk",
-        "intAddressPrefix": "2320282",
+        "poolAddress": "Titspi95BQyiqjh2S15HDmK3p25PP4whrS3dkvUmuiqfhJoLFtsZybt6t3eTuMVktkSjBXz2jcBbDZgCjgVs7ob82L6P2WYUJg",
+        "intAddressPrefix": "614815",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "./cert.pem",
@@ -74,7 +74,7 @@
         "varDiff": {
             "minDiff": 100,
             "maxDiff": 100000000,
-            "targetTime": 60,
+            "targetTime": 30,
             "retargetTime": 30,
             "variancePercent": 30,
             "maxJump": 100
@@ -113,12 +113,12 @@
         "maxAddresses": 50,
         "mixin": 1,
         "priority": 0,
-        "transferFee": 100000,
+        "transferFee": 1000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
         "minPayment": 1000,
         "maxPayment": 1000000000,
-        "maxTransactionAmount": 1000000000,
+        "maxTransactionAmount": 100000,
         "denomination": 0
     },
 
@@ -150,11 +150,11 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 9553
+        "port": 9222
     },
 
     "wallet": {
-        "host": "18.217.62.173",
+        "host": "18.222.106.239",
         "port": 8082
     },
 
