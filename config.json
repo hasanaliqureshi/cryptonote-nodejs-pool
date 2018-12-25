@@ -6,7 +6,7 @@
     "coinDecimalPlaces": 3,
     "coinDifficultyTarget": 60,
 
-    "daemonType": "default",
+    // "daemonType": "default",
     "cnAlgorithm": "cryptonight",
     "cnVariant": 0,
     "cnBlobType": 0,
