@@ -4,7 +4,7 @@
     "symbol": "TITS",
     "coinUnits": 1000,
     "coinDecimalPlaces": 3,
-    "coinDifficultyTarget": 60,
+    "coinDifficultyTarget": 30,
 
     // "daemonType": "default",
     "cnAlgorithm": "cryptonight",
