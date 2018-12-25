@@ -1,12 +1,12 @@
 {
     "poolHost": "18.222.106.239",
-    "coin": "streemie",
-    "symbol": "STRM",
+    "coin": "Titscoin",
+    "symbol": "TITS",
     "coinUnits": 1000,
     "coinDecimalPlaces": 3,
     "coinDifficultyTarget": 60,
 
-    // "daemonType": "default",
+    "daemonType": "default",
     "cnAlgorithm": "cryptonight",
     "cnVariant": 0,
     "cnBlobType": 0,
