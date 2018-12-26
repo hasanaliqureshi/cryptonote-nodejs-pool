@@ -1,10 +1,11 @@
 {
     "poolHost": "18.222.106.239",
+
     "coin": "Titscoin",
     "symbol": "TITS",
     "coinUnits": 1000,
     "coinDecimalPlaces": 3,
-    "coinDifficultyTarget": 30,
+    "coinDifficultyTarget": 60,
 
     "daemonType": "default",
     "cnAlgorithm": "cryptonight",
@@ -26,8 +27,8 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Titspi95BQyiqjh2S15HDmK3p25PP4whrS3dkvUmuiqfhJoLFtsZybt6t3eTuMVktkSjBXz2jcBbDZgCjgVs7ob82L6P2WYUJg",
-        "intAddressPrefix": "614815",
+        "poolAddress": "TitsPzrQ6btbcn6pMjhPBZY4zXjobeNkPDHBJaRDGQpCLzTwDkr3XaL8e6E4knKvt1fzzCnYwpmkWHfYWUH2tbzL8KkBwA5SPT",
+        "intAddressPrefix": 614815,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslCert": "./cert.pem",
@@ -42,20 +43,17 @@
             {
                 "port": 4444,
                 "difficulty": 15000,
-                "desc": "Mid range hardware",
-                "hidden" : true
+                "desc": "Mid range hardware"
             },
             {
                 "port": 5555,
                 "difficulty": 25000,
-                "desc": "High end hardware",
-                "hidden" : true
+                "desc": "High end hardware"
             },
             {
                 "port": 7777,
                 "difficulty": 500000,
-                "desc": "Cloud-mining / NiceHash",
-                "hidden" : true
+                "desc": "Cloud-mining / NiceHash"
             },
             {
                 "port": 8888,
@@ -67,14 +65,13 @@
                 "port": 9999,
                 "difficulty": 20000,
                 "desc": "SSL connection",
-                "hidden" : true,
                 "ssl": true
             }
         ],
         "varDiff": {
             "minDiff": 100,
             "maxDiff": 100000000,
-            "targetTime": 30,
+            "targetTime": 60,
             "retargetTime": 30,
             "variancePercent": 30,
             "maxJump": 100
@@ -111,23 +108,23 @@
         "enabled": true,
         "interval": 300,
         "maxAddresses": 50,
-        "mixin": 1,
+        "mixin": 0,
         "priority": 0,
-        "transferFee": 1000,
+        "transferFee": 10,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
-        "minPayment": 1000,
-        "maxPayment": 1000000000,
-        "maxTransactionAmount": 100000,
-        "denomination": 0
+        "minPayment": 100000,
+        "maxPayment": 10000000,
+        "maxTransactionAmount": 10000000,
+        "denomination": 100
     },
 
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 10,
-        "poolFee": 0.0,
-        "devDonation": 0.0,
+        "depth": 60,
+        "poolFee": 0.8,
+        "devDonation": 0.2,
         "networkFee": 0.0
     },
 
@@ -149,7 +146,7 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
+        "host": "18.222.106.239",
         "port": 9222
     },
 
